@@ -1,0 +1,93 @@
+#style-custom {
+	background: #1c1c21;
+	box-shadow: 2px 2px 0 0 rgba(0, 0, 0, 0.08);
+	width: 190px;
+	position: fixed;
+	top: 30%;
+	right: -190px;
+	padding: 10px 5px;
+	color: #fff;
+	transition: all .7s;
+}
+
+#style-custom div {
+	padding: 5px 10px;
+}
+
+#style-custom .open {
+	background: #1c1c21;
+	position: absolute;
+	left: -36px;
+	top: 0px;
+	font-size: 21px;
+	cursor: pointer;
+}
+
+#style-custom .open a.setting {
+	display: flex;
+	align-items: center;
+	padding: 5px 0;
+}
+
+#style-custom h3 {
+	font-size: 16px;
+	margin: 0 3px 12px;
+}
+
+ul.pattern {
+	list-style: none outside none;
+	margin: 0 0 0px;
+	overflow: hidden;
+	padding: 0;
+	border-radius: 0px;
+}
+
+ul.pattern li {
+	float: left;
+	margin: 2px;
+}
+
+ul.pattern li a {
+	cursor: pointer;
+	display: block;
+	height: 35px;
+	width: 35px;
+	border-radius: 30px;
+	margin: 5px;
+}
+
+ul.pattern li a.color1 {
+	background-color: #00adb5;
+}
+
+ul.pattern li a.color2 {
+	background-color: #11D7E1;
+}
+
+ul.pattern li a.color3 {
+	background-color: #3458F7;
+}
+
+ul.pattern li a.color4 {
+	background-color: #9300F4;
+}
+
+ul.pattern li a.color5 {
+	background-color: #FD2D95;
+}
+
+ul.pattern li a.color6 {
+	background-color: #F73918;
+}
+
+ul.pattern li a.color7 {
+	background-color: #FFD447;
+}
+
+ul.pattern li a.color8 {
+	background-color: #FFA012;
+}
+
+ul.pattern li a.color9 {
+	background-color: #E6966B;
+}
